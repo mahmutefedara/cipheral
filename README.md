@@ -1,4 +1,4 @@
-# +Cipheral+
+# 🔐 Cipheral
 A simple **Caesar Cipher tool** with encryption and decryption support.
 
 ---
