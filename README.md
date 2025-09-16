@@ -1,21 +1,58 @@
-# 🔐 Cipheral
-
-A simple **Caesar Cipher tool** written in Python.  
-Supports **encryption**, **decryption**, case handling, and safe user input.
+# +Cipheral+
+A simple **Caesar Cipher tool** with encryption and decryption support.
 
 ---
 
 ## ✨ Features
-- Encrypt & Decrypt text using Caesar cipher
-- Prevents numeric input errors
-- Handles unexpected exits gracefully
-- ASCII art banner using `pyfiglet`
+- Encrypt and decrypt text using Caesar Cipher
+- Preserves spaces and punctuation
+- Input validation (no numbers allowed in text)
+- Safe exit handling (Ctrl+C or `q` to quit)
 
 ---
 
-## 🚀 Installation
+## 📦 Installation
 Clone the repository and install dependencies:
+
 ```bash
-git clone https://github.com/<your-username>/cipheral.git
-cd cipheral
+git clone https://github.com/mahmutefedara/cipheral.git
+cd cipheral/cipheral-v1
 pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Usage
+
+Run the tool:
+
+```bash
+python cipheral.py
+```
+
+Example session:
+
+```
+Choose an option('d' for decryption, 'e' for encryption or 'q' to quit): e
+Enter your text (or 'q' to quit): hello
+Enter your shift: 3
+----------------------
+Plain text: hello
+Encrypted/Decrypted text: khoor
+----------------------
+```
+
+- `e` → Encrypt text  
+- `d` → Decrypt text  
+- `q` → Quit the program  
+
+---
+
+## 🛠 Development
+- Python 3.9+
+- Works on MacOS, Linux, and Windows
+
+---
+
+## 📄 License
+MIT License © 2025 [mahmutefedara](https://github.com/mahmutefedara)
