@@ -1,5 +1,5 @@
 # 🔐 Cipheral
-A simple **Caesar Cipher tool** with encryption and decryption support.
+A **Caesar Cipher tool** with encryption and decryption support.
 
 ---
 
