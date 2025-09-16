@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Run the tool:
 
 ```bash
-python cipheral.py
+python3 cipheral.py
 ```
 
 Example session:
